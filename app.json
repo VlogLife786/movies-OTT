@@ -9,6 +9,12 @@
     "splash": {
       "backgroundColor": "#0B0B0B"
     },
+    "updates": {
+      "url": "https://u.expo.dev/1de986b1-b6a2-4ab0-bd20-293ff7610003"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
     "assetBundlePatterns": [
       "**/*"
     ],
