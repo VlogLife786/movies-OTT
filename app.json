@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "MovieStream",
+    "slug": "movies-ott",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "moviestream",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0B0B0B"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.moviestream.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0B0B"
+      },
+      "package": "com.moviestream.app"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1de986b1-b6a2-4ab0-bd20-293ff7610003"
+      }
+    },
+    "owner": "vloglife18s-organization"
+  }
+}
